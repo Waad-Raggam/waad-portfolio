@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/waad-portfolio/static/css/main.79a58c23.css",
+    "main.js": "/waad-portfolio/static/js/main.41fc364b.js",
+    "static/js/453.bab11991.chunk.js": "/waad-portfolio/static/js/453.bab11991.chunk.js",
+    "static/media/tripguide.png": "/waad-portfolio/static/media/tripguide.991986c795ea140ba063.png",
+    "static/media/herobg.png": "/waad-portfolio/static/media/herobg.ad33add2430e34307c33.png",
+    "static/media/jobit.png": "/waad-portfolio/static/media/jobit.755da7149642fd049273.png",
+    "static/media/ps5.jpg": "/waad-portfolio/static/media/ps5.86e197fe53c7e76bf54c.jpg",
+    "static/media/web.png": "/waad-portfolio/static/media/web.c0cb2cc13791a26822d3.png",
+    "static/media/plans.jpg": "/waad-portfolio/static/media/plans.967b120ac3355b4e2990.jpg",
+    "static/media/arscene.jpg": "/waad-portfolio/static/media/arscene.933ff8076e4aad7d0759.jpg",
+    "static/media/backend.png": "/waad-portfolio/static/media/backend.08c8d93b8142c41a9e63.png",
+    "static/media/ar2.jpg": "/waad-portfolio/static/media/ar2.8eea42726d272e2431d2.jpg",
+    "static/media/mobile.png": "/waad-portfolio/static/media/mobile.15e7b89f1018dcdba6e7.png",
+    "static/media/creator.png": "/waad-portfolio/static/media/creator.f8923ce18390029928ac.png",
+    "static/media/ar3.jpg": "/waad-portfolio/static/media/ar3.a791e3644fe678e5ea61.jpg",
+    "static/media/starbucks.png": "/waad-portfolio/static/media/starbucks.c086db5b166ea2f14de1.png",
+    "static/media/github.png": "/waad-portfolio/static/media/github.ed1c06d925fff0b57e32.png",
+    "static/media/close.svg": "/waad-portfolio/static/media/close.52ab0d39b2c514b8322115c951eac5a2.svg",
+    "static/media/menu.svg": "/waad-portfolio/static/media/menu.acf64a387fc724c7a47a3a0120d5dc52.svg",
+    "index.html": "/waad-portfolio/index.html",
+    "static/media/threejs.svg": "/waad-portfolio/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
+    "main.79a58c23.css.map": "/waad-portfolio/static/css/main.79a58c23.css.map",
+    "main.41fc364b.js.map": "/waad-portfolio/static/js/main.41fc364b.js.map",
+    "453.bab11991.chunk.js.map": "/waad-portfolio/static/js/453.bab11991.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79a58c23.css",
+    "static/js/main.41fc364b.js"
+  ]
+}
