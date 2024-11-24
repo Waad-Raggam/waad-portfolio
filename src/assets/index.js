@@ -26,12 +26,21 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import arscene from "./arscene.jpg";
+import ar2 from "./ar2.jpg";
+import ar3 from "./ar3.jpg";
+import ar4 from "./ar4.jpg";
+import plans from "./plans.jpg";
+import ps5 from "./ps5.jpg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
   // logo,
+  arscene,
+  ar2,
+  ar3,
+  ar4,
   backend,
   creator,
   mobile,
@@ -56,7 +65,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+  // carrent,
+  plans,
+  ps5,
   jobit,
   tripguide,
 };
