@@ -19,10 +19,16 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  // carrent,
+  plans,
   jobit,
   tripguide,
   threejs,
+  arscene,
+  ar2,
+  ar3,
+  ar4,
+  ps5,
 } from "../assets";
 
 export const navLinks = [
@@ -200,68 +206,143 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Gym Insurance Marketplace",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A gym insurance management platform that enables users to manage insurance plans, filter policies dynamically, and track orders via a React-based dashboard. It streamlines insurance operations with an intuitive and responsive interface.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "material-ui",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "axios",
         color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
       },
       {
         name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
+        color: "yellow-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: plans,
+    source_code_link:
+      "https://github.com/Waad-Raggam/gym-insurance-marketplace",
   },
   {
-    name: "Trip Guide",
+    name: "Augmented Geometry",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An educational mobile app leveraging augmented reality to teach 3D geometry concepts. It provides tools for shape visualization, geometric transformations, quizzes, and performance tracking, aiming to enhance the learning experience for students and teachers.",
     tags: [
       {
-        name: "nextjs",
+        name: "flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "unity",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "dart",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "augmented-reality",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: ar4,
+    source_code_link: "https://github.com/waadshaher/Augmented-Geometry/",
+  },
+  {
+    name: "PS5 Games Browser App",
+    description:
+      "A sleek and user-friendly mobile app that allows users to browse, search, and discover PlayStation 5 games. Features include filtering by genre, rating, and release date, detailed game descriptions, and trailers. Built to enhance the gaming experience by providing a convenient way to explore the PS5 game library.",
+    tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bloc",
+        color: "green-text-gradient",
+      },
+      {
+        name: "dart",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ps5,
+    source_code_link: "https://github.com/Waad-Raggam/ps5-games-browser-app",
   },
 ];
+
+// const projects = [
+//   {
+//     name: "Car Rent",
+//     description:
+//       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+//     tags: [
+//       {
+//         name: "react",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "mongodb",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "tailwind",
+//         color: "pink-text-gradient",
+//       },
+//     ],
+//     image: carrent,
+//     source_code_link: "https://github.com/",
+//   },
+//   {
+//     name: "Job IT",
+//     description:
+//       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+//     tags: [
+//       {
+//         name: "react",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "restapi",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "scss",
+//         color: "pink-text-gradient",
+//       },
+//     ],
+//     image: jobit,
+//     source_code_link: "https://github.com/",
+//   },
+//   {
+//     name: "Trip Guide",
+//     description:
+//       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+//     tags: [
+//       {
+//         name: "nextjs",
+//         color: "blue-text-gradient",
+//       },
+//       {
+//         name: "supabase",
+//         color: "green-text-gradient",
+//       },
+//       {
+//         name: "css",
+//         color: "pink-text-gradient",
+//       },
+//     ],
+//     image: tripguide,
+//     source_code_link: "https://github.com/",
+//   },
+// ];
 
 export { services, technologies, experiences, testimonials, projects };
