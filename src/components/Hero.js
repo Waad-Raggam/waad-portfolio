@@ -1,16 +1,20 @@
 import React from 'react';
-// import ThreeCanvas from './ThreeCanvas';
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls, Stars } from '@react-three/drei';
+import './Hero.css';
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section className="hero-section">
+      <Canvas camera={{ position: [0, 0, 10], fov: 75 }}>
+        <Stars />
+        <OrbitControls enableZoom={false} />
+      </Canvas>
       <div className="hero-content">
-        <h1>Waad Raggam</h1>
-        <p>Software Developer | Full-Stack Engineer</p>
+        <h1>Hi, I'm Waad</h1>
+        <p>Software Developer</p>
+        <a href="#about" className="cta-btn">Learn More</a>
       </div>
-      {/* <div className="hero-canvas">
-        <ThreeCanvas />
-      </div> */}
     </section>
   );
 };

@@ -1,19 +1,18 @@
 import React from 'react';
+import './App.css';
+import ThreeScene from './components/ThreeScene';
+import Contact from './components/contact/Contact';
 import Hero from './components/Hero';
 import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
-import './App.css';
-
-const App = () => {
+function App() {
   return (
     <div className="App">
+      {/* <ThreeScene /> */}
       <Hero />
-      <Experience />
-      <Projects />
-      <Contact />
+      {/* <Experience />
+      <Contact /> */}
     </div>
   );
-};
+}
 
 export default App;
