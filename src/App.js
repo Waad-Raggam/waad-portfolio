@@ -6,11 +6,16 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { StarsCanvas } from "./components/canvas";
+import Navbar from "./components/Navbar";
 function App() {
   return (
     <div className="App">
-      {/* <ThreeScene /> */}
-      <Hero />
+       <div className='relative z-0 bg-primary'>
+        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+          <Navbar />
+          <Hero />
+        </div>
+        </div>
       <About />
       <Experience />
       <Projects />
