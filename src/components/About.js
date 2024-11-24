@@ -39,7 +39,6 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
@@ -47,13 +46,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a motivated software developer with expertise in React.js, TypeScript, C#, and ASP.NET Core, 
+        and experience in building dynamic applications using Flutter and Node.js. I love working on creating scalable, 
+        efficient, and user-friendly solutions, whether it's crafting seamless mobile apps, enhancing web platforms, 
+        or leveraging cloud services like AWS and Firebase. With a passion for turning ideas into impactful applications, 
+        I’m ready to collaborate and bring your vision to life!
       </motion.p>
-
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
