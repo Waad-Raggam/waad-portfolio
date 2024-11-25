@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/waad-portfolio/static/css/main.79a58c23.css",
-    "main.js": "/waad-portfolio/static/js/main.41fc364b.js",
+    "main.js": "/waad-portfolio/static/js/main.d6479e16.js",
     "static/js/453.bab11991.chunk.js": "/waad-portfolio/static/js/453.bab11991.chunk.js",
     "static/media/tripguide.png": "/waad-portfolio/static/media/tripguide.991986c795ea140ba063.png",
     "static/media/herobg.png": "/waad-portfolio/static/media/herobg.ad33add2430e34307c33.png",
@@ -22,11 +22,11 @@
     "index.html": "/waad-portfolio/index.html",
     "static/media/threejs.svg": "/waad-portfolio/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
     "main.79a58c23.css.map": "/waad-portfolio/static/css/main.79a58c23.css.map",
-    "main.41fc364b.js.map": "/waad-portfolio/static/js/main.41fc364b.js.map",
+    "main.d6479e16.js.map": "/waad-portfolio/static/js/main.d6479e16.js.map",
     "453.bab11991.chunk.js.map": "/waad-portfolio/static/js/453.bab11991.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79a58c23.css",
-    "static/js/main.41fc364b.js"
+    "static/js/main.d6479e16.js"
   ]
 }
