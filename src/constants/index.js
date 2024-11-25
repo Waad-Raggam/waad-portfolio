@@ -226,6 +226,14 @@ const projects = [
         name: "restapi",
         color: "yellow-text-gradient",
       },
+      {
+        name: "C#",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ASP.NET Core",
+        color: "pink-text-gradient",
+      },
     ],
     image: plans,
     source_code_link:
@@ -250,6 +258,10 @@ const projects = [
       },
       {
         name: "augmented-reality",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "restapi",
         color: "yellow-text-gradient",
       },
     ],
