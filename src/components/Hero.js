@@ -22,10 +22,15 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             
           </p>
+          I'm a motivated software developer with expertise in React.js, TypeScript, C#, and ASP.NET Core, 
+        and experience in building dynamic applications using Flutter and Node.js. I love working on creating scalable, 
+        efficient, and user-friendly solutions, whether it's crafting seamless mobile apps, enhancing web platforms, 
+        or leveraging cloud services like AWS and Firebase. With a passion for turning ideas into impactful applications, 
+        I’m ready to collaborate and bring your vision to life!
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
