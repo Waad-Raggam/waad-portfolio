@@ -1,158 +1,59 @@
 {
-  
-  "homepage": "https://waad-raggam.github.io/waad-portfolio/",
-  
+  "homepage": "https://Waad-Raggam.github.io/waad-portfolio",
   "name": "waad-portfolio",
-  
   "version": "0.1.0",
-  
   "private": true,
-  
   "dependencies": {
-  
-    
-  "@emailjs/browser": "^4.4.1",
-  
-    
-  "@react-three/drei": "^9.117.3",
-  
-    
-  "@react-three/fiber": "^8.17.10",
-  
-    
-  "@testing-library/jest-dom": "^5.17.0",
-  
-    
-  "@testing-library/react": "^13.4.0",
-  
-    
-  "@testing-library/user-event": "^13.5.0",
-  
-    
-  "framer-motion": "^11.11.17",
-  
-    
-  "maath": "^0.10.8",
-  
-    
-  "react": "^18.3.1",
-  
-    
-  "react-dom": "^18.3.1",
-  
-    
-  "react-parallax-tilt": "^1.7.258",
-  
-    
-  "react-router-dom": "^7.0.1",
-  
-    
-  "react-scripts": "5.0.1",
-  
-    
-  "react-social-icons": "^6.18.0",
-  
-    
-  "react-spring": "^9.7.4",
-  
-    
-  "react-tilt": "^1.0.2",
-  
-    
-  "react-vertical-timeline-component": "^3.6.0",
-  
-    
-  "three": "^0.170.0",
-  
-    
-  "web-vitals": "^2.1.4"
-  
+    "@emailjs/browser": "^4.4.1",
+    "@react-three/drei": "^9.117.3",
+    "@react-three/fiber": "^8.17.10",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "canvas": "^2.11.2",
+    "framer-motion": "^11.11.17",
+    "maath": "^0.10.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-parallax-tilt": "^1.7.258",
+    "react-router-dom": "^7.0.1",
+    "react-scripts": "5.0.1",
+    "react-social-icons": "^6.18.0",
+    "react-spring": "^9.7.4",
+    "react-tilt": "^1.0.2",
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.170.0",
+    "web-vitals": "^2.1.4"
   },
-  
-  "overrides": {
-  
-    
-  "eslint-plugin-jest": "25.7.0",
-  
-    
-  "typescript": "4.9.5"
-  
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  
-"scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-},
-  
   "eslintConfig": {
-  
-    
-  "extends": [
-  
-    
-    
-  "react-app",
-  
-    
-    
-  "react-app/jest"
-  
-    
-  ]
-  
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
-  
   "browserslist": {
-  
-    
-  "production": [
-  
-    
-    
-  ">0.2%",
-  
-    
-    
-  "not dead",
-  
-    
-    
-  "not op_mini all"
-  
-    
-  ],
-  
-    
-  "development": [
-  
-    
-    
-  "last 1 chrome version",
-  
-    
-    
-  "last 1 firefox version",
-  
-    
-    
-  "last 1 safari version"
-  
-    
-  ]
-  
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
-  
   "devDependencies": {
-  
-    
-  "gh-pages": "^6.3.0",
-  
-    
-  "tailwindcss": "^3.4.15"
-  
+    "gh-pages": "^6.2.0",
+    "tailwindcss": "^3.4.15"
   }
+
 }
