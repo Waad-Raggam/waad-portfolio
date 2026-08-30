@@ -31,6 +31,7 @@ import ar2 from "./ar2.jpg";
 import ar3 from "./ar3.jpg";
 import ar4 from "./ar4.jpg";
 import plans from "./plans.jpg";
+import doggy from "./doggy.jpg";
 import ps5 from "./ps5.jpg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -70,4 +71,5 @@ export {
   ps5,
   jobit,
   tripguide,
+  doggy,
 };

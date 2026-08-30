@@ -21,6 +21,7 @@ import {
   shopify,
   // carrent,
   plans,
+  doggy,
   jobit,
   tripguide,
   threejs,
@@ -48,20 +49,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Cloud Engineer (AWS & GCP)",
     icon: web,
   },
   {
-    title: "Flutter Developer",
+    title: "Mobile Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Apple Developer",
     icon: backend,
   },
   {
-    title: "Games Developer",
-    icon: creator,
+    title: "Web Developer",
+    icon: reactjs,
   },
 ];
 
@@ -122,7 +123,40 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Developer",
+    title: "Software Engineer",
+    company_name: "Client Project",
+    project_name: "Mobile app marketplace",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "Nov 2024 – Aug 2026",
+    points: [
+      "Sole developer for a mobile app, independently owned the entire lifecycle from architecture, development, and publishing to iOS and Android.",
+      "Designed and built the app, covering UI, state management, and business logic.",
+      "Integrated Firebase services (Firebase Auth, Firestore, Cloud Storage, Cloud Functions, Crashlytics) for backend infrastructure, data persistence, and crash monitoring.",
+      "Independently managed the Apple Developer account, including app registration, certificates, provisioning profiles, and App Store Connect setup.",
+      "Integrated Apple services such as Apple Push Notification service (APNs) for real-time push notifications, including certificate/key configuration and payload handling.",
+      "Configured and distributed TestFlight builds for internal and external beta testing, coordinating tester feedback into release cycles.",
+      "Successfully published apps to Google Play Store and Apple App Store.",
+"Designed and developed the admin dashboard for managing users, listings, categories, reports, and other marketplace operations, with data and actions integrated with the mobile application backend."
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company_name: "Masterly Notion Media",
+    project_name: "Retm Platform",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "Feb 2025 – Aug 2025",
+    points: [
+      "Lead mobile app enhancements and maintenance using Flutter, improving user engagement and app stability.",
+      "Applied best practices in source control, and continuous integration to ensure code quality.",
+      "Worked closely with product owners to refine user stories and deliver smooth, intuitive features.",
+      "Directed efforts in app architecture, bug fixing, and optimization, contributing to a stable and user-friendly application.",
+      "Utilized Google Cloud Platform services to support application deployment."
+    ],
+  },
+  {
+    title: "Software Engineer",
     company_name: "myFirst Tech",
     project_name: "Social Circle Mobile App",
     icon: starbucks,
@@ -136,7 +170,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Developer",
+    title: "Software Engineer",
     company_name: "myFirst Tech",
     project_name: "myFirst FreeSim Website",
     icon: tesla,
@@ -150,7 +184,7 @@ const experiences = [
     ],
   },
   {
-    title: "C# Bootcamp",
+    title: "Software Development with C# Bootcamp",
     company_name: "Saudi Digital Academy",
     project_name: "Gym Insurance Marketplace",
     icon: meta,
@@ -205,6 +239,32 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Pawmpur | Pet Grooming",
+    description:
+      "A simple way to discover, book, and manage grooming services for your pets, all in one place.",
+    tags: [
+      {
+        name: "flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "material-ui",
+        color: "green-text-gradient",
+      },
+      {
+        name: "dart",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: doggy,
+    // source_code_link:
+    //   "https://github.com/Waad-Raggam/gym-insurance-marketplace",
+  },
   {
     name: "Gym Insurance Marketplace",
     description:

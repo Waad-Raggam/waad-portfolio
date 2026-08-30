@@ -46,10 +46,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a motivated software developer with expertise in React.js, TypeScript, C#, and ASP.NET Core, 
-        and experience in building dynamic applications using Flutter and Node.js. I love working on creating scalable, 
-        efficient, and user-friendly solutions, whether it's crafting seamless mobile apps, enhancing web platforms, 
-        or leveraging cloud services like AWS and Firebase. With a passion for turning ideas into impactful applications, 
+        I am a software engineer with a Bachelor’s in Software Engineering from Universiti Teknologi Malaysia (UTM). AWS Cloud Practitioner Certified with hands on experience in cloud platforms including AWS and GCP. Specialized in mobile development with Flutter. Proficient in GitHub version control and passionate about building scalable, efficient applications.
+         With a passion for turning ideas into impactful applications, 
         I’m ready to collaborate and bring your vision to life!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
